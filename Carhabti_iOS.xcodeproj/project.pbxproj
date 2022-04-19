@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17FC38B0DD4AE6CEE389F8D8 /* Pods_Carhabti_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE20ED217A92D7049EBF475 /* Pods_Carhabti_iOS.framework */; };
+		4F4F88A5280B86A5002D0F21 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F88A4280B86A5002D0F21 /* ServiceViewController.swift */; };
+		4F4F88A8280B8765002D0F21 /* ServiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F88A7280B8765002D0F21 /* ServiceDetailsViewController.swift */; };
+		4F7C31EE280A2EBC00AD030C /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C31ED280A2EBC00AD030C /* SigninView.swift */; };
+		4F7C31F0280A2ED900AD030C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C31EF280A2ED900AD030C /* SignupView.swift */; };
+		4F7C31F2280A2F8A00AD030C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C31F1280A2F8A00AD030C /* User.swift */; };
+		4F7C31F4280A2FFE00AD030C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C31F3280A2FFE00AD030C /* UserViewModel.swift */; };
+		4F7C31F6280A311E00AD030C /* Constante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C31F5280A311E00AD030C /* Constante.swift */; };
+		4F7C31F8280A363100AD030C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C31F7280A363100AD030C /* Alert.swift */; };
+		4F7C31FA280A380D00AD030C /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C31F9280A380D00AD030C /* LoadingScreen.swift */; };
+		4F83429228077AE100C9EF66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F83429128077AE100C9EF66 /* ContentView.swift */; };
+		4F83429428077B7700C9EF66 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F83429328077B7700C9EF66 /* SignUpView.swift */; };
+		4F83429628077B8400C9EF66 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F83429528077B8400C9EF66 /* LoginView.swift */; };
+		4F83429828077BA100C9EF66 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F83429728077BA100C9EF66 /* LogoView.swift */; };
+		4F83429A28077BAC00C9EF66 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F83429928077BAC00C9EF66 /* HomeView.swift */; };
+		4F83429C28077FF400C9EF66 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F83429B28077FF400C9EF66 /* HelloWorld.swift */; };
+		4FED792A27FE3060001E898B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED792927FE3060001E898B /* AppDelegate.swift */; };
+		4FED792C27FE3060001E898B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED792B27FE3060001E898B /* SceneDelegate.swift */; };
+		4FED793127FE3060001E898B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FED792F27FE3060001E898B /* Main.storyboard */; };
+		4FED793427FE3060001E898B /* Carhabti_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FED793227FE3060001E898B /* Carhabti_iOS.xcdatamodeld */; };
+		4FED793927FE3061001E898B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FED793727FE3061001E898B /* LaunchScreen.storyboard */; };
+		4FED794627FE3B89001E898B /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED794527FE3B89001E898B /* OnBoardingViewController.swift */; };
+		4FED794927FE3E7E001E898B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED794827FE3E7E001E898B /* UIView+Extension.swift */; };
+		4FED794B27FE3F71001E898B /* OnBoardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED794A27FE3F71001E898B /* OnBoardingSlide.swift */; };
+		4FED794D27FE4181001E898B /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED794C27FE4181001E898B /* OnBoardingCollectionViewCell.swift */; };
+		881F57A5280E0213004398DD /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57A4280E0213004398DD /* HistoryViewController.swift */; };
+		881F57A8280E181E004398DD /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57A7280E181E004398DD /* IncomeViewController.swift */; };
+		881F57AC280E1857004398DD /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57AB280E1857004398DD /* ServicesViewController.swift */; };
+		881F57AE280E1860004398DD /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57AD280E1860004398DD /* RouteViewController.swift */; };
+		881F57B0280E1871004398DD /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57AF280E1871004398DD /* ExpenseViewController.swift */; };
+		881F57B2280E1881004398DD /* RefuelingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57B1280E1881004398DD /* RefuelingViewController.swift */; };
+		881F57B4280E188A004398DD /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57B3280E188A004398DD /* ReminderViewController.swift */; };
+		881F57B8280E2FF8004398DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881F57B7280E2FF8004398DD /* Assets.xcassets */; };
+		881F57BA280E4442004398DD /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57B9280E4442004398DD /* Income.swift */; };
+		881F57BC280E444D004398DD /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57BB280E444D004398DD /* Services.swift */; };
+		881F57BE280E4457004398DD /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57BD280E4457004398DD /* Route.swift */; };
+		881F57C0280E4468004398DD /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57BF280E4468004398DD /* Expense.swift */; };
+		881F57C2280E4474004398DD /* Refueling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57C1280E4474004398DD /* Refueling.swift */; };
+		881F57C4280E458F004398DD /* IncomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F57C3280E458F004398DD /* IncomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EE20ED217A92D7049EBF475 /* Pods_Carhabti_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carhabti_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DD04159081D991EF89B3EC /* Pods-Carhabti_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carhabti_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Carhabti_iOS/Pods-Carhabti_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4F4F88A4280B86A5002D0F21 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		4F4F88A7280B8765002D0F21 /* ServiceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailsViewController.swift; sourceTree = "<group>"; };
+		4F7C31ED280A2EBC00AD030C /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		4F7C31EF280A2ED900AD030C /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		4F7C31F1280A2F8A00AD030C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4F7C31F3280A2FFE00AD030C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		4F7C31F5280A311E00AD030C /* Constante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constante.swift; sourceTree = "<group>"; };
+		4F7C31F7280A363100AD030C /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4F7C31F9280A380D00AD030C /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		4F83429128077AE100C9EF66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F83429328077B7700C9EF66 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		4F83429528077B8400C9EF66 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4F83429728077BA100C9EF66 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		4F83429928077BAC00C9EF66 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4F83429B28077FF400C9EF66 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		4FED792627FE3060001E898B /* Carhabti_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carhabti_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FED792927FE3060001E898B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FED792B27FE3060001E898B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4FED793027FE3060001E898B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FED793327FE3060001E898B /* Carhabti_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carhabti_iOS.xcdatamodel; sourceTree = "<group>"; };
+		4FED793827FE3061001E898B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FED793A27FE3061001E898B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FED794527FE3B89001E898B /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		4FED794827FE3E7E001E898B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4FED794A27FE3F71001E898B /* OnBoardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSlide.swift; sourceTree = "<group>"; };
+		4FED794C27FE4181001E898B /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		5248ED7EF63D5AAA712AA601 /* Pods-Carhabti_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carhabti_iOS.release.xcconfig"; path = "Target Support Files/Pods-Carhabti_iOS/Pods-Carhabti_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		881F57A4280E0213004398DD /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		881F57A7280E181E004398DD /* IncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
+		881F57AB280E1857004398DD /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		881F57AD280E1860004398DD /* RouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		881F57AF280E1871004398DD /* ExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewController.swift; sourceTree = "<group>"; };
+		881F57B1280E1881004398DD /* RefuelingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefuelingViewController.swift; sourceTree = "<group>"; };
+		881F57B3280E188A004398DD /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		881F57B7280E2FF8004398DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881F57B9280E4442004398DD /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		881F57BB280E444D004398DD /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		881F57BD280E4457004398DD /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		881F57BF280E4468004398DD /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		881F57C1280E4474004398DD /* Refueling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refueling.swift; sourceTree = "<group>"; };
+		881F57C3280E458F004398DD /* IncomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FED792327FE3060001E898B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FC38B0DD4AE6CEE389F8D8 /* Pods_Carhabti_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4F88A6280B8751002D0F21 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4F4F88A4280B86A5002D0F21 /* ServiceViewController.swift */,
+				4F4F88A7280B8765002D0F21 /* ServiceDetailsViewController.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4F7C31EC280A2E8200AD030C /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4F7C31ED280A2EBC00AD030C /* SigninView.swift */,
+				4F7C31EF280A2ED900AD030C /* SignupView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		4F83428E28077A3300C9EF66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FB17FE2280A5AEE003CBCF4 /* SwiftUI */,
+				4F7C31EC280A2E8200AD030C /* Auth */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FB17FE2280A5AEE003CBCF4 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				4F83429128077AE100C9EF66 /* ContentView.swift */,
+				4F83429328077B7700C9EF66 /* SignUpView.swift */,
+				4F83429528077B8400C9EF66 /* LoginView.swift */,
+				4F83429728077BA100C9EF66 /* LogoView.swift */,
+				4F83429928077BAC00C9EF66 /* HomeView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		4FED791D27FE3060001E898B = {
+			isa = PBXGroup;
+			children = (
+				4F83429B28077FF400C9EF66 /* HelloWorld.swift */,
+				4FED792827FE3060001E898B /* Carhabti_iOS */,
+				4FED792727FE3060001E898B /* Products */,
+				9250BFB28F947779EA970AF3 /* Pods */,
+				FA43526CD7A50D89053F2433 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FED792727FE3060001E898B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FED792627FE3060001E898B /* Carhabti_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FED792827FE3060001E898B /* Carhabti_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4F83428E28077A3300C9EF66 /* View */,
+				4FED794727FE3E50001E898B /* Extensions */,
+				4FED794127FE3B1E001E898B /* View Model */,
+				4FED794027FE3B12001E898B /* Models */,
+				4FED792927FE3060001E898B /* AppDelegate.swift */,
+				4FED792B27FE3060001E898B /* SceneDelegate.swift */,
+				4FED792F27FE3060001E898B /* Main.storyboard */,
+				4FED793727FE3061001E898B /* LaunchScreen.storyboard */,
+				4FED793A27FE3061001E898B /* Info.plist */,
+				881F57B7280E2FF8004398DD /* Assets.xcassets */,
+				4FED793227FE3060001E898B /* Carhabti_iOS.xcdatamodeld */,
+			);
+			path = Carhabti_iOS;
+			sourceTree = "<group>";
+		};
+		4FED794027FE3B12001E898B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FED794A27FE3F71001E898B /* OnBoardingSlide.swift */,
+				4F7C31F1280A2F8A00AD030C /* User.swift */,
+				881F57B9280E4442004398DD /* Income.swift */,
+				881F57BB280E444D004398DD /* Services.swift */,
+				881F57BD280E4457004398DD /* Route.swift */,
+				881F57BF280E4468004398DD /* Expense.swift */,
+				881F57C1280E4474004398DD /* Refueling.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FED794127FE3B1E001E898B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				881F57A6280E1805004398DD /* BottomSheet */,
+				881F57A1280E01B9004398DD /* BottomNavigationBar */,
+				4F4F88A6280B8751002D0F21 /* Service */,
+				4FED794427FE3B63001E898B /* OnBoarding */,
+				4F7C31F3280A2FFE00AD030C /* UserViewModel.swift */,
+				881F57C3280E458F004398DD /* IncomeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		4FED794427FE3B63001E898B /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				4FED794527FE3B89001E898B /* OnBoardingViewController.swift */,
+				4FED794C27FE4181001E898B /* OnBoardingCollectionViewCell.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		4FED794727FE3E50001E898B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4FED794827FE3E7E001E898B /* UIView+Extension.swift */,
+				4F7C31F5280A311E00AD030C /* Constante.swift */,
+				4F7C31F7280A363100AD030C /* Alert.swift */,
+				4F7C31F9280A380D00AD030C /* LoadingScreen.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		881F57A1280E01B9004398DD /* BottomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				881F57A4280E0213004398DD /* HistoryViewController.swift */,
+			);
+			path = BottomNavigationBar;
+			sourceTree = "<group>";
+		};
+		881F57A6280E1805004398DD /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				881F57A7280E181E004398DD /* IncomeViewController.swift */,
+				881F57AB280E1857004398DD /* ServicesViewController.swift */,
+				881F57AD280E1860004398DD /* RouteViewController.swift */,
+				881F57AF280E1871004398DD /* ExpenseViewController.swift */,
+				881F57B1280E1881004398DD /* RefuelingViewController.swift */,
+				881F57B3280E188A004398DD /* ReminderViewController.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		9250BFB28F947779EA970AF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36DD04159081D991EF89B3EC /* Pods-Carhabti_iOS.debug.xcconfig */,
+				5248ED7EF63D5AAA712AA601 /* Pods-Carhabti_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA43526CD7A50D89053F2433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EE20ED217A92D7049EBF475 /* Pods_Carhabti_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FED792527FE3060001E898B /* Carhabti_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FED793D27FE3061001E898B /* Build configuration list for PBXNativeTarget "Carhabti_iOS" */;
+			buildPhases = (
+				87A9000000543C25EF376E45 /* [CP] Check Pods Manifest.lock */,
+				4FED792227FE3060001E898B /* Sources */,
+				4FED792327FE3060001E898B /* Frameworks */,
+				4FED792427FE3060001E898B /* Resources */,
+				07D78246BDF486D3FCD43C67 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carhabti_iOS;
+			productName = Carhabti_iOS;
+			productReference = 4FED792627FE3060001E898B /* Carhabti_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FED791E27FE3060001E898B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4FED792527FE3060001E898B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FED792127FE3060001E898B /* Build configuration list for PBXProject "Carhabti_iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FED791D27FE3060001E898B;
+			productRefGroup = 4FED792727FE3060001E898B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FED792527FE3060001E898B /* Carhabti_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FED792427FE3060001E898B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FED793927FE3061001E898B /* LaunchScreen.storyboard in Resources */,
+				881F57B8280E2FF8004398DD /* Assets.xcassets in Resources */,
+				4FED793127FE3060001E898B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D78246BDF486D3FCD43C67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carhabti_iOS/Pods-Carhabti_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carhabti_iOS/Pods-Carhabti_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carhabti_iOS/Pods-Carhabti_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A9000000543C25EF376E45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Carhabti_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FED792227FE3060001E898B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881F57C0280E4468004398DD /* Expense.swift in Sources */,
+				4F83429C28077FF400C9EF66 /* HelloWorld.swift in Sources */,
+				881F57A5280E0213004398DD /* HistoryViewController.swift in Sources */,
+				4F7C31EE280A2EBC00AD030C /* SigninView.swift in Sources */,
+				4F83429A28077BAC00C9EF66 /* HomeView.swift in Sources */,
+				4FED794D27FE4181001E898B /* OnBoardingCollectionViewCell.swift in Sources */,
+				4FED793427FE3060001E898B /* Carhabti_iOS.xcdatamodeld in Sources */,
+				4F4F88A5280B86A5002D0F21 /* ServiceViewController.swift in Sources */,
+				4FED792A27FE3060001E898B /* AppDelegate.swift in Sources */,
+				881F57B2280E1881004398DD /* RefuelingViewController.swift in Sources */,
+				4F7C31F4280A2FFE00AD030C /* UserViewModel.swift in Sources */,
+				4F7C31FA280A380D00AD030C /* LoadingScreen.swift in Sources */,
+				4F7C31F2280A2F8A00AD030C /* User.swift in Sources */,
+				881F57C2280E4474004398DD /* Refueling.swift in Sources */,
+				881F57B0280E1871004398DD /* ExpenseViewController.swift in Sources */,
+				4F83429428077B7700C9EF66 /* SignUpView.swift in Sources */,
+				881F57AE280E1860004398DD /* RouteViewController.swift in Sources */,
+				881F57BC280E444D004398DD /* Services.swift in Sources */,
+				4F83429628077B8400C9EF66 /* LoginView.swift in Sources */,
+				881F57B4280E188A004398DD /* ReminderViewController.swift in Sources */,
+				881F57AC280E1857004398DD /* ServicesViewController.swift in Sources */,
+				4FED792C27FE3060001E898B /* SceneDelegate.swift in Sources */,
+				4F83429228077AE100C9EF66 /* ContentView.swift in Sources */,
+				881F57BE280E4457004398DD /* Route.swift in Sources */,
+				881F57A8280E181E004398DD /* IncomeViewController.swift in Sources */,
+				4FED794927FE3E7E001E898B /* UIView+Extension.swift in Sources */,
+				4F7C31F0280A2ED900AD030C /* SignupView.swift in Sources */,
+				4FED794B27FE3F71001E898B /* OnBoardingSlide.swift in Sources */,
+				4F4F88A8280B8765002D0F21 /* ServiceDetailsViewController.swift in Sources */,
+				4F83429828077BA100C9EF66 /* LogoView.swift in Sources */,
+				4FED794627FE3B89001E898B /* OnBoardingViewController.swift in Sources */,
+				881F57C4280E458F004398DD /* IncomeViewModel.swift in Sources */,
+				4F7C31F8280A363100AD030C /* Alert.swift in Sources */,
+				881F57BA280E4442004398DD /* Income.swift in Sources */,
+				4F7C31F6280A311E00AD030C /* Constante.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FED792F27FE3060001E898B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FED793027FE3060001E898B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FED793727FE3061001E898B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FED793827FE3061001E898B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FED793B27FE3061001E898B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FED793C27FE3061001E898B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FED793E27FE3061001E898B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DD04159081D991EF89B3EC /* Pods-Carhabti_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Carhabti_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Carhabti-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FED793F27FE3061001E898B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5248ED7EF63D5AAA712AA601 /* Pods-Carhabti_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Carhabti_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Carhabti-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FED792127FE3060001E898B /* Build configuration list for PBXProject "Carhabti_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FED793B27FE3061001E898B /* Debug */,
+				4FED793C27FE3061001E898B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FED793D27FE3061001E898B /* Build configuration list for PBXNativeTarget "Carhabti_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FED793E27FE3061001E898B /* Debug */,
+				4FED793F27FE3061001E898B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4FED793227FE3060001E898B /* Carhabti_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4FED793327FE3060001E898B /* Carhabti_iOS.xcdatamodel */,
+			);
+			currentVersion = 4FED793327FE3060001E898B /* Carhabti_iOS.xcdatamodel */;
+			path = Carhabti_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4FED791E27FE3060001E898B /* Project object */;
+}
