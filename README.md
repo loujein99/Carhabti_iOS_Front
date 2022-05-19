@@ -31,6 +31,6 @@ open the project folder inside the terminal and type "pod install" then run Carh
 MIT License
 
 ## Author Info
-Bouazizi Loujein</br>
+Bouzazi Loujein</br>
 Gharbi Mohamed
 
